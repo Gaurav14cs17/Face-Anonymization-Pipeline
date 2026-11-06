@@ -1,6 +1,27 @@
 # Face Anonymization Pipeline
 
-Automatically blur all faces in a video.
+Automatically detect and blur every face in a video using **YuNet** detection, IoU
+tracking, and **BlazeFace** quality-check verification.
+
+## Before / After
+
+<table>
+  <tr>
+    <th width="50%" align="center">Raw input</th>
+    <th width="50%" align="center">Anonymized output</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <video src="assets/raw.mp4" poster="assets/raw_poster.jpg" controls autoplay muted loop playsinline width="100%"></video>
+    </td>
+    <td align="center">
+      <video src="assets/anonymized.mp4" poster="assets/anonymized_poster.jpg" controls autoplay muted loop playsinline width="100%"></video>
+    </td>
+  </tr>
+</table>
+
+> Left: `assets/raw.mp4` · Right: `assets/anonymized.mp4`
+> (If your Markdown viewer does not render the videos, open the files directly.)
 
 ## Quick Start
 
@@ -68,4 +89,5 @@ src/
 
 ## More Details
 
-See `docs/` folder for step-by-step explanations.
+See `docs/` folder for step-by-step explanations and `RESULTS_SUMMARY.md` for
+detection/QC metrics and known failure modes.
