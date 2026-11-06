@@ -3,7 +3,6 @@
 Automatically detect and blur every face in a video using **YuNet** detection, IoU
 tracking, and **BlazeFace** quality-check verification.
 
-**Author:** [Gaurav14cs17](https://github.com/Gaurav14cs17)
 
 ## Before / After
 
