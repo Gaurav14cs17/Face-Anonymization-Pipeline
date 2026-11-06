@@ -5,23 +5,12 @@ tracking, and **BlazeFace** quality-check verification.
 
 ## Before / After
 
-<table>
-  <tr>
-    <th width="50%" align="center">Raw input</th>
-    <th width="50%" align="center">Anonymized output</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <video src="assets/raw.mp4" poster="assets/raw_poster.jpg" controls autoplay muted loop playsinline width="100%"></video>
-    </td>
-    <td align="center">
-      <video src="assets/anonymized.mp4" poster="assets/anonymized_poster.jpg" controls autoplay muted loop playsinline width="100%"></video>
-    </td>
-  </tr>
-</table>
+| Raw input | Anonymized output |
+| :---: | :---: |
+| [![Raw input](assets/raw_preview.gif)](assets/raw.mp4) | [![Anonymized output](assets/anonymized_preview.gif)](assets/anonymized.mp4) |
 
-> Left: `assets/raw.mp4` · Right: `assets/anonymized.mp4`
-> (If your Markdown viewer does not render the videos, open the files directly.)
+> Animated previews (first 8 seconds). Click either preview to open the full video:
+> [raw](assets/raw.mp4) · [anonymized](assets/anonymized.mp4)
 
 ## Quick Start
 
